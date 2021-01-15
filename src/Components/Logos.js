@@ -3,7 +3,8 @@ import styled from 'styled-components'
 
 
 const Logo= styled.svg`
-  margin:0;
+  width: 25px;
+  height:18px;
   &:hover{
     filter: invert(1);
   }

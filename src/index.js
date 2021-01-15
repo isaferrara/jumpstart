@@ -13,12 +13,12 @@ const Back=styled.div`
 
  const PositionedLeft= styled(App)`
     position:absolute;
-    left: 10%;
+    left: 5%;
     top: 10%;
  ` 
   const PositionedRight= styled(App)`
     position:absolute;
-    right: 60%;
+    left: 32%;
     top: 10%;
   ` 
 

@@ -12,8 +12,7 @@ const MenuBtn = styled.button`
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-right: 10px;
-  justify-content: flex-start;
+  text-align:left;
   &:hover {
     background: #B05EFD;
     color:white;
