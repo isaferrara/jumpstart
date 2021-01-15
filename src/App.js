@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import Container from "./Components/Container.js";
-
 import MainButton from "./Components/MainButton.js";
 import Text from "./Components/Text.js";
 import TextContainer from "./Components/TextContainer.js";

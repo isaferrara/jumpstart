@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const MenuBtn = styled.button`
+export const MenuBtn = styled.button`
   background: none;
   position:relative;
   width: 100%;
@@ -19,9 +19,9 @@ const MenuBtn = styled.button`
   }
   ` 
 
-const MenuButton = ({children}) => {
+const MenuButton = ({children, className}) => {
     return (
-        <MenuBtn>
+        <MenuBtn className={className}>
         {children}      
         </MenuBtn>
     )

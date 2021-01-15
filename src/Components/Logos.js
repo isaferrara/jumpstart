@@ -9,9 +9,9 @@ const Logo= styled.svg`
     filter: invert(1);
   }
 `
-const Logos = ({children, className}) => {
+const Logos = ({children}) => {
     return (
-        <Logo className={className}>
+        <Logo >
             {children}
         </Logo>
     )
