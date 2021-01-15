@@ -8,7 +8,7 @@ import styled from 'styled-components'
 const Back=styled.div`
     width: 100%;
     height: 100vh;
-    background-color: gray;
+    background-color: #f0f0f0;
 `
 
  const PositionedLeft= styled(App)`
@@ -18,9 +18,8 @@ const Back=styled.div`
  ` 
   const PositionedRight= styled(App)`
     position:absolute;
-    right: 40%;
+    right: 60%;
     top: 10%;
-
   ` 
 
 ReactDOM.render(
